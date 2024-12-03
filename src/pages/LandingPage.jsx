@@ -14,10 +14,8 @@ import logo6 from "../assets/companies-capricorn-group-300x300.jpg";
 import logo4 from "../assets/companies-deloitte-300x300.jpg";
 import logo7 from "../assets/companies-ffg-1-300x300.jpg";
 import logo8 from "../assets/companies-sasseta-300x300.jpg";
-import logo3 from "../assets/Frame1.png";
 import logo2 from "../assets/Frame2.png";
 import logo1 from "../assets/Group-29-1024x576.png";
-import logo9 from "../assets/Lap.jpg";
 import ImageSlider from "../components/ImageCoursel";
 
 const LandingPage = () => {
@@ -67,7 +65,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Info Section */}
       <div className="text-center mt-16 px-4">
         <h2 className="text-3xl font-semibold text-[#006699] mb-6">
           Future-Proof Your Workforce Management with GoSmartHR
@@ -80,7 +77,6 @@ const LandingPage = () => {
         </p>
       </div>
 
-      {/* Feature Section */}
       <div className="flex flex-col md:flex-row items-center justify-center px-4 md:px-12 lg:px-40 py-16 ">
         <img
           className="w-48 md:w-72 lg:w-80 mx-auto"
@@ -104,7 +100,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* Product Offering Section */}
       <div className="bg-[#005D8C] py-10 w-full">
         <div className="text-center mb-8">
           <p className="text-lg font-medium text-white">Our product offering</p>
@@ -112,7 +107,7 @@ const LandingPage = () => {
             One smart solution that does it all
           </h1>
         </div>
-        {/* Grid Layout */}
+
         <div className="mr-8 ml-8 md:mr-56 md:ml-56">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {iconsArray.map((item) => (
@@ -130,7 +125,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* How It Works Section */}
       <div className="py-16 px-6 w-full">
         <div className="text-center mb-12">
           <h1 className="text-xl font-semibold text-[#006699] mb-4">
@@ -166,7 +160,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* Call to Action Section */}
       <div className="text-center py-16 px-4">
         <h1 className="text-3xl font-semibold text-[#006699] mb-4">
           Call Us today and book a Demo
