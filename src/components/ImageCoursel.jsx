@@ -58,7 +58,6 @@ const TextCarousel = () => {
           onClick={prevText}
           className=" text-orange-600 text-2xl p-3 rounded-full shadow-lg "
         >
-          {" "}
           &#60;
         </button>
       </div>

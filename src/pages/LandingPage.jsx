@@ -167,43 +167,21 @@ const LandingPage = () => {
         <p className="text-lg text-gray-600 mb-8">
           Learn why the GoSmartHR Solution makes sense in your business.
         </p>
-        <button className="mt-4 bg-[#F16611] hover:bg-[#d35c0f] text-white font-bold py-2 px-6 rounded-full transition duration-300">
+        <button className="mt-4  bg-[#F16611] hover:bg-[#d35c0f] text-white font-bold py-4 px-6 rounded-full transition duration-300">
           Get in touch
         </button>
-        <button className="mt-4 bg-[#F16611] hover:bg-[#d35c0f] text-white font-bold py-2 px-6 rounded-full transition duration-300">
+        <button className="mt-4 m-10 bg-[#F16611] hover:bg-[#d35c0f] text-white font-bold py-4 px-6 rounded-full transition duration-300">
           Book a Demo
         </button>
       </div>
 
       <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-16 w-full">
-        <div className="mr-8 ml-8 md:mr-56 md:ml-56">
-          <div className="flex flex-wrap justify-center gap-10 ">
-            <img
-              src={logo5}
-              alt="Logo 5"
-              className="h-20 w-20 object-contain"
-            />
-            <img
-              src={logo6}
-              alt="Logo 6"
-              className="h-20 w-20 object-contain"
-            />
-            <img
-              src={logo4}
-              alt="Logo 4"
-              className="h-20 w-20 object-contain"
-            />
-            <img
-              src={logo7}
-              alt="Logo 7"
-              className="h-20 w-20 object-contain"
-            />
-            <img
-              src={logo8}
-              alt="Logo 8"
-              className="h-20 w-20 object-contain"
-            />
-          </div>
+        <div className="flex flex-wrap justify-center gap-10 ml-96 ">
+          <img src={logo5} alt="Logo 5" className="h-20 w-20 object-contain" />
+          <img src={logo6} alt="Logo 6" className="h-20 w-20 object-contain" />
+          <img src={logo4} alt="Logo 4" className="h-20 w-20 object-contain" />
+          <img src={logo7} alt="Logo 7" className="h-20 w-20 object-contain" />
+          <img src={logo8} alt="Logo 8" className="h-20 w-20 object-contain" />
         </div>
       </div>
 
